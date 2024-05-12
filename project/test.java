@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class test {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Your name is: ");
-		String name = scanner.nextLine();
-		System.out.println("Your age is: ");
-		int age = scanner.nextInt();
-		System.out.println("My name is " + name + ", age = " + age);
+		System.out.printf("First number : ");
+		int Firstnumber = scanner.nextInt();
+
+		System.out.printf("Second number : ");
+		int Secondnumber = scanner.nextInt();
+
+		System.out.println("Number = " + Math.min(Firstnumber, Secondnumber));
 		scanner.close();
 	}
 }
