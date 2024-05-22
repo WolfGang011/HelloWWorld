@@ -8,8 +8,8 @@ public class bai03 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of size of array");
 		int size = sc.nextInt();
-		int[] a = new int[size];
 		System.out.println("Enter the array element");
+		int[] a = new int[size];
 		// For reading the element
 		for (int i = 0; i < size; i++) {
 			a[i] = sc.nextInt();
